@@ -42,7 +42,7 @@ function fillTodoList(todoItems = []) {
         return `
         <div class="item" data-id=${i}>
             <p class="item-text">${todo}</p>
-            <span class="bi bi-x-circle remove-todo"></span>
+            <span class="bi bi-trash3-fill remove-todo"></span>
             <span class="bi bi-check-square-fill complete"></span>
         </div>`;
     }).join('');
@@ -55,7 +55,7 @@ function fillDoneList(doneItems = []) {
         return `
         <div class="item" data-id=${i}>
             <p class="item-text">${done}</p>
-            <span class="bi bi-x-circle remove-done"></span>
+            <span class="bi bi-trash3-fill remove-done"></span>
         </div>`;
     }).join('');
 

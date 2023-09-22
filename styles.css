@@ -103,7 +103,7 @@ body.show-floater .overlay {
     top: 10px;
     right: 10px;
     color: #bbb;
-    font-size: 12px;
+    font-size: 15px;
     transition: 0.3s ease color;
     cursor: pointer;
 }
@@ -117,7 +117,7 @@ body.show-floater .overlay {
     bottom: 10px;
     right: 10px;
     color: #bbb;
-    font-size: 12px;
+    font-size: 13px;
     transition: 0.3s ease color;
     cursor: pointer;
 }
